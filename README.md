@@ -2,11 +2,7 @@
 
 This is a full-stack web application designed to streamline the fashion product development lifecycle. It uses AI to generate insights, strategies, and content for each stage of the process, from initial analysis to demand planning. The application culminates in a "Digital Brief," a comprehensive summary of the product's journey.
 
-<p align="center">
-  <img src="./assets/screenshot.png" alt="Main Application View" width="48%">
-  &nbsp;
-  <img src="./assets/screenshot_2.png" alt="Digital Brief Presentation View" width="48%">
-</p>
+<img src="./assets/screenshot.png" alt="Main Application View">
 
 ## Features
 
@@ -16,6 +12,9 @@ This is a full-stack web application designed to streamline the fashion product 
 - **Presentation View:** Offers a visually appealing presentation mode for the digital brief.
 - **Image Generation:** Includes a stage for generating product images based on AI-driven concepts.
 - **Interactive UI:** A modern, reactive user interface built with Next.js and Tailwind CSS.
+
+<img src="./assets/screenshot_2.png" alt="Digital Brief Presentation View">
+
 
 ## Tech Stack
 
