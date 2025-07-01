@@ -1,5 +1,7 @@
 # Service account key
 service-account-key.json
+ml-developer-project-fe07-fd6545ea6b15.json
+*.json
 
 # Python virtual environment
 venv/
