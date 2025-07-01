@@ -1,0 +1,9 @@
+# Service account key
+service-account-key.json
+
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc 
