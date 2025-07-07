@@ -13,8 +13,18 @@ This is a full-stack web application designed to streamline the fashion product 
 - **Image Generation:** Includes a stage for generating product images based on AI-driven concepts.
 - **Interactive UI:** A modern, reactive user interface built with Next.js and Tailwind CSS.
 
-<img src="./assets/screenshot_2.png" alt="Digital Brief Presentation View">
+## Data Flow: From Input to Insight
 
+This application does not connect to external data sources or require you to upload datasets. Instead, it builds a comprehensive picture of your product strategy through a cumulative, context-aware process. Here's how it works:
+
+1.  **Initial Input:** You begin the process by providing an initial concept or instruction for the first stage, "Analysis & Insights."
+2.  **AI-Powered Analysis:** The application sends this input, along with a stage-specific prompt, to Google's Gemini AI. The AI analyzes the information and generates a detailed output, including key data points.
+3.  **Cumulative Context:** For each subsequent stage, the application bundles the outputs and key data from **all** previous stages into a single "context."
+4.  **Iterative Generation:** This growing context is then sent to the AI along with your instructions for the current stage. The AI uses the entire history of the project to generate a relevant and well-informed response.
+
+This iterative process ensures that the insights and strategies at later stages are built upon a solid foundation of decisions and data from the beginning, creating a coherent and comprehensive digital brief.
+
+<img src="./assets/screenshot_2.png" alt="Digital Brief Presentation View">
 
 ## Tech Stack
 
@@ -27,6 +37,7 @@ This is a full-stack web application designed to streamline the fashion product 
   - [FastAPI](https://fastapi.tiangolo.com/) (Web Framework)
   - [Uvicorn](https.www.uvicorn.org) (ASGI Server)
   - [Google Vertex AI](https://cloud.google.com/vertex-ai) (for Gemini API)
+  - [Google Imagen](https://cloud.google.com/vertex-ai/generative-ai/docs/image/overview/) (for text-to-image generation)
 
 ## Prerequisites
 
